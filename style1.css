@@ -1,0 +1,319 @@
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://assets.nflxext.com/ffe/siteui/vlv3/c0b69670-89a3-48ca-877f-45ba7a60c16f/2642e08e-4202-490e-8e93-aff04881ee8a/IN-en-20240212-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    
+}
+
+.image nav{
+    float: right;
+    margin: 15px;
+    padding: 18px;
+    border-radius: 2px;
+   
+}
+.bnt button{
+    background-color: transparent;
+    font-size: 15px;
+    color: white;
+    border-radius: 2px;
+    border: 1px solid white;
+    margin: 10px;
+    padding: 4px;
+
+    
+    
+}
+    .signin{
+        margin-left: 320px;
+        padding: 10px;
+        display: flex;
+        overflow: hidden;
+       
+    }
+    .signin input{
+        border-radius: 3px;
+        outline: 0;
+        padding: 10px ;
+        margin: 10px;
+        background-color: transparent;
+        color: white;
+        flex: 0.5;
+        font-size: 20px;
+        
+
+   
+    }
+    .signin a{
+       
+        background-color: red;
+        margin: 10px;
+        padding: 10px;
+        border: 1px;
+        border-radius: 3px;
+        flex: 0.2;
+        color: white;
+        font-size: 20px;
+        text-decoration: none;
+        text-align: center;
+    
+        
+    }
+    
+    
+    .text-col{
+        position: relative;
+        left: 0px;
+        top: 580px;
+        right: 0px;
+        
+        
+    }
+    
+    .text-col h1{
+        font-size: 45px;
+        color: white;
+        text-align: right;
+        position: relative;
+        top: 200px;
+        right: 100px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+
+        
+    }
+    .text-col p{
+        font-size: 20px;
+        color: white;
+        text-align: right;
+        position: relative;
+        top: 200px;
+        right: 100px;
+       
+    }.features{
+        background-color: black;
+        position: relative;
+        top: 590px;
+        left: 0px;
+        right: 0px;
+        
+        box-shadow: 0px -25px 30px  rgb(63, 61, 61);
+    }
+    .features h1{
+        
+        position: absolute; 
+        top: 80px;
+        left: 660px;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+
+    }.features p{
+        
+        font-size: 24px;
+        color: white;
+        position: absolute; 
+        top: 200px;
+        left: 660px;
+    
+    }
+
+
+    .movie{
+        position: relative;
+        top: 599px;
+        left: 0;
+        background-color: black;
+        box-shadow: 0px -25px 30px  rgb(63, 61, 61);
+    }
+    .movie h1{
+        text-align: left;
+        color: white;
+        top: 200px;
+        left: 50px;
+        font-size:35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: relative;
+
+    }
+    .movie p{
+        font-size: 24px;
+        color: white;
+        position: absolute; 
+        top: 250px;
+        left: 60px;
+
+    }
+
+    .movie img{
+        position: relative;
+        left: 550px;
+        
+    }
+
+    .page{
+        background-color: black;
+        position: relative;
+        top: 610px;
+        left: 0;
+        box-shadow: 0px -25px 30px  rgb(63, 61, 61);
+        
+
+    }
+
+    .page img{
+        position: relative;
+        left: 550px;
+    }
+
+    .page h1{
+        
+        text-align: left;
+        color: white;
+        top: 100px;
+        left: 50px;
+        font-size:35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        position: absolute;
+
+
+    }  .page p{
+
+        font-size: 17px;
+        color: white;
+        position: absolute; 
+        top: 120px;
+        left: 30px;
+        font-weight: 100;
+
+    }
+    .footer{
+        background-color: black;
+        position: relative;
+        top: 620px;
+        box-shadow: 0px -25px 30px  rgb(63, 61, 61);
+
+
+    }
+    .footer h1{
+        text-align: center;
+        font-size: 40px;
+        color:white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }  
+
+    .footer p{
+        color: white;
+        font-size: 25px;
+        position: relative;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(45, 43, 43);
+        padding: 15px;
+        margin: 10px;    
+
+    }
+    .footer h2{
+        color: white;
+        font-weight: 100;
+        position: inherit;
+        left: 250px;
+    }
+    .email {
+        border-radius: 3px;
+        outline: 0;
+        padding: 10px ;
+        margin: 10px;
+        background-color: transparent;
+        color: white;
+        flex: 0.5;
+        font-size: 20px;
+    }
+
+    .rows{
+        background-color: black;
+        position:relative;
+        top:560px;
+        box-shadow: 0px -25px 30px  rgb(63, 61, 61);
+
+
+    }
+    .col ul{
+        
+        font-size: 15px;
+        padding: 10px;
+        margin: 10px;
+       
+
+    }
+    .col li{
+        text-decoration: none;
+        color: white;
+        overflow: hidden;
+
+    }
+
+   * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+        font-family: Arial, sans-serif;
+      }
+      
+      footer {
+        background-color: #111;
+        color: #fff;
+        padding: 50px 0;
+        position: relative;
+        top: 630px;
+        box-shadow: 0px -25px 30px  rgb(63, 61, 61);
+      }
+      
+      .footer-wrapper {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .footer-column {
+        flex: 1;
+        margin-right: 40px;
+      }
+      
+      .footer-column:last-child {
+        margin-right: 0;
+      }
+      
+      .footer-column h3 {
+        margin-bottom: 20px;
+      }
+      
+      .footer-column ul {
+        list-style: none;
+      }
+      
+      .footer-column ul li {
+        margin-bottom: 10px;
+      }
+      
+      .footer-column ul li a {
+        text-decoration: none;
+        color: #757575;
+      }
+      
+      .footer-column ul li a:hover {
+        color: #fff;
+      }
+      
+
+    

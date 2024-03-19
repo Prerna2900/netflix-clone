@@ -1,0 +1,187 @@
+.header a{
+      float:  right;
+      margin: 10px;
+      padding: 10px;
+      text-decoration: none;
+      color: black;
+      font-size: 22px;
+  
+  }
+  
+  .header img{
+      float: left;
+      position: absolute;
+      margin: 10px;
+      padding: 10px;
+      
+  }
+  .border{
+      border: 1px solid rgb(240, 222, 222);
+      position: relative;
+      margin: 10px;
+      padding: 0;
+      left: 0;
+      right: 0;
+     
+  }
+  .image img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+
+  .text p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+
+  .text h5{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .text h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .end p{
+    position: relative;
+    left: 650px;
+  }
+  .end img{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    left: 810px;
+    top: 310px;
+  }
+  
+  
+  .container {
+    text-align: center;
+  }
+  
+  .payment-form {
+    margin-bottom: 20px;
+  }
+  
+  .payment-form label {
+    display: block;
+    margin-bottom: 5px;
+    position: relative;
+    left: 450px;
+  }
+  
+  .payment-form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    flex: 1;
+    width: 30%;
+    position: relative;
+    left: 450px;
+    border-radius: 3px;
+    
+  }
+  
+  #payButton {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    flex: 1;
+    width: 30%;
+    position: relative;
+    left: 450px;
+
+  }
+  
+  #paymentStatus {
+    font-weight: bold;
+  }
+  
+  
+  
+     
+
+
+  
+
+  .square{
+    font-size: 20px;
+  }
+
+  
+.footer{
+    background-color: rgb(133, 107, 107);
+    position: relative;
+    top: 90px;
+
+}
+.footer td{
+    color: white;
+    column-gap: 20px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    background-color:rgb(210, 199, 199);
+    color: black;
+    padding: 50px 0;
+    position: relative;
+    top: 180px;
+  }
+  
+  .footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #757575;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  

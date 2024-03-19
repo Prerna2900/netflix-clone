@@ -1,0 +1,161 @@
+.header a{
+  float:  right;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+
+}
+
+.header img{
+    float: left;
+    position: absolute;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.border{
+    border: 1px solid rgb(240, 222, 222);
+    position: relative;
+    margin: 10px;
+    padding: 0;
+    left: 0;
+    right: 0;
+   
+}
+.steps h1{
+    
+     color: black;
+     font-size: 30px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: left;
+     position: relative;
+     left: 400px;
+
+}
+.steps p{
+    font-size: 18px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    position: relative;
+    left: 400px;
+}
+
+.input{
+    text-align: left;
+    position: relative;
+    left: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+.text{
+    text-align: left;
+    position: relative;
+    left: 400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.signin input{
+    text-align: left;
+    position: absolute;
+    left: 400px;
+    border-radius: 2px;
+    padding: 10px;
+    margin: 10px;
+    flex: 1;
+    font-size: 15px;
+    width: 30%;
+}
+.signin button{
+  background-color: red;
+  margin: 10px;
+  padding: 10px;
+  border: 1px;
+  flex: 0.2;
+  border-radius: 3px;
+  width: 30%;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  position: absolute;
+  left: 400px;
+}
+
+.signin a{
+    position: relative;
+    left: 400px;
+    text-decoration: none;
+    overflow: hidden;
+   
+    
+}
+
+.footer{
+    background-color: rgb(133, 107, 107);
+    position: relative;
+    top: 90px;
+
+}
+.footer td{
+    color: white;
+    column-gap: 20px;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  footer {
+    background-color:rgb(210, 199, 199);
+    color: black;
+    padding: 50px 0;
+    position: relative;
+    top: 90px;
+  }
+  
+  .footer-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin-right: 40px;
+  }
+  
+  .footer-column:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-column h3 {
+    margin-bottom: 20px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    text-decoration: none;
+    color: #757575;
+  }
+  
+  .footer-column ul li a:hover {
+    color: #fff;
+  }
+  
