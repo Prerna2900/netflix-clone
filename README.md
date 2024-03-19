@@ -1,5 +1,3 @@
 # Netflix-clone
-# Netflix-clone
-# Netflix-clone
-# netflix-clone
-# netflix-clone
+### Netflix Clone in Vanilla HTML, CSS and Javascript
+### Star this Repository!
